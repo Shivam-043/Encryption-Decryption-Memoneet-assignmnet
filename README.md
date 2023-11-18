@@ -14,6 +14,7 @@ This Flutter application allows users to encrypt and decrypt text strings using 
 
 - **Flutter:** Cross-platform framework for mobile app development.
 - **SQLite:** Embedded database for secure and persistent data storage.
+- **Encrypt:** Import Encrypt Package for String Encryption.
 
 ## Getting Started
 
