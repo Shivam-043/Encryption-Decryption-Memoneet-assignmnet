@@ -1,16 +1,44 @@
-# encyptdecrypt
+# Encryption and Decryption App
 
-A new Flutter project.
+This Flutter application allows users to encrypt and decrypt text strings using a basic encryption algorithm. The app utilizes the SQLite database for secure and persistent storage of encrypted strings.
+
+## Features
+
+- **Encryption:** Input text strings and encrypt them using a basic encryption algorithm.
+- **Decryption:** Retrieve and decrypt previously encrypted strings stored in the SQLite database.
+- **Persistent Storage:** Securely store encrypted strings for future use.
+- **Snackbar Notifications:** Real-time feedback for successful encryption and error handling.
+
+
+## Technologies Used
+
+- **Flutter:** Cross-platform framework for mobile app development.
+- **SQLite:** Embedded database for secure and persistent data storage.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+To run the app locally:
 
-A few resources to get you started if this is your first Flutter project:
+1. Clone this repository.
+2. Open the project in a Flutter-supported IDE (e.g., Visual Studio Code).
+3. Run the app on an emulator or a physical device.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Usage
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. Enter the text you want to encrypt in the designated text field.
+2. Tap "Encrypt and Save" to encrypt and store the entered text.
+3. Use "Decrypt and Display" to retrieve and decrypt the stored strings.
+
+## Contributions
+
+Contributions are welcome! Fork the repository and create a pull request for any improvements or bug fixes.
+
+## Acknowledgments
+
+- [Flutter](https://flutter.dev/) for the cross-platform framework.
+- [SQLite](https://www.sqlite.org/) for the embedded database.
+
+## Author
+
+Shivam Krishan Varshney
+
